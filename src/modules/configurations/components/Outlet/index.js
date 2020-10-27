@@ -40,7 +40,7 @@ export default () => {
                 ...item,
                 type: elementTypes[index]
             }))));
-            setCurrentLayout([]);
+            resetLayout();
         }
     };
 
